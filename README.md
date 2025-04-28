@@ -15,19 +15,16 @@ A Python-based chatbot that uses Natural Language Processing (NLP) to understand
        NumPy (Numerical Computing)
        
 🚀 Installation & Setup
-       1. Clone the Repository
-            git clone https://github.com/Shauryy03/Chatbot-Using-NLP.git
-            cd Chatbot-Using-NLP
-      2. Install Dependencies
+      1. Install Dependencies
              pip install nltk tensorflow tflearn numpy streamlit
              (Includes streamlit, nltk, tensorflow, numpy)
-      3. Download NLTK Data
+      2. Download NLTK Data
             import nltk
             nltk.download('punkt')
-      4. Train the Model
+      3. Train the Model
             python train.py
             (Generates model.tflearn and words.pkl.)
-      5. Run the Chatbot
+      4. Run the Chatbot
             streamlit run app.py
             ➡️ Opens automatically at http://localhost:8501
 
