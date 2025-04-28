@@ -4,10 +4,12 @@ A Python-based chatbot that uses Natural Language Processing (NLP) to understand
 
  ✨ Features
  
-       Natural Language Understanding (NLU) using nltk
-       Neural Network Model for intent classification
-       Customizable responses via intents.json
-       Interactive chat interface in the terminal
+       ✅ Interactive Web UI built with Streamlit
+       ✅ Natural Language Understanding using NLTK
+       ✅ Neural Network Model for intent classification
+       ✅ Easy Customization through intents.json
+       ✅ Interactive chat interface in the terminal
+       ✅ Real-time Chat Experience
        
  🛠️ Tech Stack
  
@@ -15,20 +17,28 @@ A Python-based chatbot that uses Natural Language Processing (NLP) to understand
        NLTK (Natural Language Toolkit)
        TensorFlow (Deep Learning Framework)
        TFLearn (High-level TensorFlow API)
-       NumPy (Numerical Computing)    
+       NumPy (Numerical Computing) 
+
+🚀 Implementation
+
+     The chatbot(input_text) function takes user input, transforms it using the already fitted vectorizer, predicts the intent using the already trained clf model, 
+     and then randomly selects a response associated with that intent from the intents data. B. Machine Learning (ML) Component:
+
        
 🚀 Installation & Setup
 
-      1. Install Dependencies
+      1.Repository
+           https://github.com/Shauryy03/Chatbot-Using-NLP
+      2. Install Dependencies
              pip install nltk tensorflow tflearn numpy streamlit
              (Includes streamlit, nltk, tensorflow, numpy)
-      2. Download NLTK Data
+      3. Download NLTK Data
             import nltk
             nltk.download('punkt')
-      3. Train the Model
+      4. Train the Model
             python train.py
             (Generates model.tflearn and words.pkl.)
-      4. Run the Chatbot
+      5. Run the Chatbot
             streamlit run app.py
             ➡️ Opens automatically at http://localhost:8501
             
